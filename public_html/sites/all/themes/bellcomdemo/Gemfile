@@ -1,0 +1,8 @@
+# Source of gems
+source "https://rubygems.org"
+
+# Gems and versions
+gem "sass", ">= 3.2.12"
+gem "compass", ">= 0.12.2"
+gem "susy", "= 1.0.9"
+gem 'breakpoint', '= 2.7'

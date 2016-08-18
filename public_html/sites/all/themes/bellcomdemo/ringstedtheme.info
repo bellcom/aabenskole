@@ -1,0 +1,25 @@
+name = Bellcom demo
+description = demo
+base theme = sub_theme_aabenskole
+core = 7.x
+screenshot = screenshot.png
+
+stylesheets[all][] = css/ringsted_styles.css
+
+; Panels layout plugins
+plugins[panels][layouts] = plugins/layouts
+
+; ----- / REGIONS / -----
+
+regions[page_top] = Page Top
+regions[page_bottom] = Page Bottom
+regions[content] = Content
+regions[sidebar] = Sidebar
+
+regions[header] = Header
+regions[menu] = Menu
+regions[help] = Help
+regions[footer] = Footer
+regions[bottom] = Bottom
+regions[topbar_search] = Topbar Search
+regions[events_topbar_search] = Events Topbar Search

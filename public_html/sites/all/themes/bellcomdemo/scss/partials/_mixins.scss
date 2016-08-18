@@ -1,0 +1,36 @@
+@mixin font-size($sizeValue: 13){
+  font-size: ($sizeValue) + px;
+  font-size: ($sizeValue / 16) + rem;
+}
+
+/**
+ * Includes any font.
+ *
+ * The font must be placed in: ../font/NAME.[eot|woff|ttf|svg]
+ *
+ * @param (string) $name - font and folder name;
+ *
+ *
+ * @example:
+ *
+ * ../font/Arial/bold/bold.[eot|woff|ttf|svg]
+ * @include include_font(Arial);
+ */
+@mixin include_font($name) {
+    $url: unquote('../fonts/' + $name);
+
+    @font-face {
+        font-family:$name;
+        src: url($url + '.eot');
+        src: url($url + '.eot?#iefix') format('embedded-opentype'),
+             url($url + '.woff') format('woff'),
+             url($url + '.ttf') format('truetype'),
+             url($url + '.svg#' + $name) format('svg');
+    }
+}
+
+@mixin button() {
+  padding: 7px;
+  background: $pri;
+  color: white !important;
+}

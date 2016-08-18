@@ -1,0 +1,654 @@
+/**
+ * Includes any font.
+ *
+ * The font must be placed in: ../font/NAME.[eot|woff|ttf|svg]
+ *
+ * @param (string) $name - font and folder name;
+ *
+ *
+ * @example:
+ *
+ * ../font/Arial/bold/bold.[eot|woff|ttf|svg]
+ * @include include_font(Arial);
+ */
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800";
+/* line 3, ../scss/partials/_typography.scss */
+a:link, a:visited {
+  text-decoration: none;
+  color: #fff;
+  transition: 800ms;
+  margin: 0 !important;
+  transition: 800ms; }
+
+/* line 11, ../scss/partials/_typography.scss */
+a:hover {
+  background: none !important;
+  color: #d5d5d5;
+  box-shadow: none !important;
+  border: none !important; }
+
+/* line 20, ../scss/partials/_typography.scss */
+.menu-main a {
+  color: #fff !important;
+  font-size: 1.009em !important;
+  float: left !important;
+  font-weight: 600 !important;
+  transition: 800ms;
+  cursor: pointer !important; }
+
+/* line 31, ../scss/partials/_typography.scss */
+.menu-main li {
+  transition: 800ms; }
+
+/* line 38, ../scss/partials/_typography.scss */
+.menu-main li:hover {
+  background-color: #EBEBEB !important;
+  cursor: pointer !important; }
+
+/* line 46, ../scss/partials/_typography.scss */
+.sec-msg a {
+  border-right: 1px solid rgba(255, 255, 255, 0.1) !important;
+  font-weight: 200 !important; }
+
+/* line 55, ../scss/partials/_typography.scss */
+.sec-menu a {
+  border-right: 1px solid rgba(255, 255, 255, 0.2) !important; }
+
+/* line 64, ../scss/partials/_typography.scss */
+.sec {
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 16px; }
+  /* line 65, ../scss/partials/_typography.scss */
+  .sec h1, .sec h2, .sec h3, .sec h4, .sec h5,
+  .sec .pane-title, .sec .view-header {
+    font-family: "Open Sans", sans-serif !important; }
+  /* line 71, ../scss/partials/_typography.scss */
+  .sec .field-name-field-teaser {
+    font-family: "Open Sans", sans-serif !important;
+    font-size: 24px; }
+  /* line 75, ../scss/partials/_typography.scss */
+  .sec .list-content-wrapper > a {
+    font-family: "Open Sans", sans-serif !important;
+    font-size: 16px !important; }
+
+/* line 82, ../scss/partials/_typography.scss */
+.view .feed-icon {
+  content: '' !important;
+  float: right;
+  margin-top: 20px; }
+  /* line 86, ../scss/partials/_typography.scss */
+  .view .feed-icon:before {
+    content: '' !important; }
+  /* line 89, ../scss/partials/_typography.scss */
+  .view .feed-icon a.feed-icon:before {
+    content: "\e60e" !important; }
+
+@media (max-width: 960px) {
+  /* line 3, ../scss/partials/_header.scss */
+  .sec-header a {
+    width: 100%; }
+  /* line 7, ../scss/partials/_header.scss */
+  .sec-header img {
+    margin: 0 auto; }
+
+  /* line 11, ../scss/partials/_header.scss */
+  .sec-menu {
+    float: none !important;
+    text-align: center !important; } }
+/* line 17, ../scss/partials/_header.scss */
+.sec-menu {
+  clear: both;
+  float: right;
+  margin-top: 15px;
+  text-align: right;
+  border: 0;
+  width: 100%; }
+  /* line 25, ../scss/partials/_header.scss */
+  .sec-menu .sec-inner {
+    padding: 0; }
+  /* line 29, ../scss/partials/_header.scss */
+  .sec-menu .menu-main {
+    float: right;
+    width: 100%; }
+  /* line 35, ../scss/partials/_header.scss */
+  .sec-menu .nav {
+    display: inline-block; }
+  /* line 39, ../scss/partials/_header.scss */
+  .sec-menu li {
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    *zoom: 1;
+    *display: inline;
+    margin: 0;
+    text-transform: uppercase;
+    float: none; }
+  /* line 46, ../scss/partials/_header.scss */
+  .sec-menu a {
+    font-size: 22px;
+    font-size: 1.375rem;
+    padding: 16px 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    display: block;
+    color: #777 !important; }
+    /* line 54, ../scss/partials/_header.scss */
+    .sec-menu a:hover {
+      background-color: #EBEBEB;
+      color: #333; }
+  /* line 62, ../scss/partials/_header.scss */
+  .sec-menu .active a,
+  .sec-menu .active-trail a {
+    color: #333;
+    background-color: transparent; }
+  /* line 68, ../scss/partials/_header.scss */
+  .sec-menu .last {
+    margin-right: 0; }
+
+/* line 3, ../scss/partials/_footer.scss */
+.footer {
+  background: #222;
+  background-position: 110% -95px; }
+
+/* line 8, ../scss/partials/_footer.scss */
+.sec-footer {
+  background: none; }
+
+/* line 12, ../scss/partials/_footer.scss */
+.footer-wrapper {
+  background-position: -250px -95px;
+  font-family: 'Open Sans', sans-serif;
+  position: relative; }
+  /* line 21, ../scss/partials/_footer.scss */
+  .footer-wrapper .tx-content p {
+    color: #d5d5d5;
+    font-family: "Open Sans", sans-serif !important; }
+  /* line 28, ../scss/partials/_footer.scss */
+  .footer-wrapper .block {
+    margin-top: 40px; }
+    /* line 31, ../scss/partials/_footer.scss */
+    .footer-wrapper .block h2 {
+      color: #fff;
+      font-size: 18px;
+      font-size: 1.125rem;
+      font-family: 'Open Sans', sans-serif;
+      margin-bottom: 20px;
+      text-transform: uppercase; }
+    /* line 39, ../scss/partials/_footer.scss */
+    .footer-wrapper .block h3 {
+      color: #fff;
+      font-size: 16px;
+      font-size: 1rem;
+      font-family: 'Open Sans', sans-serif;
+      margin-bottom: 40px;
+      text-transform: uppercase; }
+  /* line 49, ../scss/partials/_footer.scss */
+  .footer-wrapper .sec-inner .footer-section,
+  .footer-wrapper .sec-inner section {
+    width: 23.85321%;
+    float: left;
+    margin-right: 1.52905%;
+    display: inline; }
+
+/* line 1, ../scss/partials/_search.scss */
+.page-search .search-form .form-submit {
+  padding: 9px 0.5em; }
+
+/* line 4, ../scss/partials/_search.scss */
+.form-item-retain-filters {
+  margin-top: 40px !important; }
+
+/* line 10, ../scss/partials/_search.scss */
+.page-search-events .events-topbar-search select {
+  width: 100%; }
+/* line 17, ../scss/partials/_search.scss */
+.page-search-events .sec-inner .apachesolr_search-results .search-result.highlighted {
+  background: #c6d8e2; }
+/* line 21, ../scss/partials/_search.scss */
+.page-search-events .sec-inner .apachesolr_search-results .search-result .search-fields-events-right .date,
+.page-search-events .sec-inner .apachesolr_search-results .search-result .search-fields-events-right .price,
+.page-search-events .sec-inner .apachesolr_search-results .search-result .search-fields-events-right .icon-link {
+  font-size: 12px;
+  display: block;
+  margin-bottom: 3%;
+  font-style: normal; }
+/* line 29, ../scss/partials/_search.scss */
+.page-search-events .sec-inner .apachesolr_search-results .search-result .search-fields-events-right .icon-link {
+  margin-top: 30px; }
+/* line 32, ../scss/partials/_search.scss */
+.page-search-events .sec-inner .apachesolr_search-results .search-result .search-fields-events-right .link-search {
+  font-family: "Gill Sans W01","Gill Sans",serif;
+  font-weight: bold; }
+  /* line 35, ../scss/partials/_search.scss */
+  .page-search-events .sec-inner .apachesolr_search-results .search-result .search-fields-events-right .link-search a {
+    padding: 7px;
+    background: #ff2e00;
+    color: white !important; }
+
+@media (max-width: 960px) {
+  /* line 46, ../scss/partials/_search.scss */
+  .block-facetapi {
+    margin-bottom: 30px !important; } }
+/* line 53, ../scss/partials/_search.scss */
+.apachesolr-browse-blocks .block-facetapi,
+.sec-inner .block-facetapi {
+  display: inline-block;
+  float: left;
+  margin-bottom: 0 !important;
+  width: 31.03448%;
+  float: left;
+  margin-right: 3.44828%;
+  display: inline; }
+  /* line 58, ../scss/partials/_search.scss */
+  .apachesolr-browse-blocks .block-facetapi:nth-of-type(3n),
+  .sec-inner .block-facetapi:nth-of-type(3n) {
+    float: right;
+    margin-right: 0;
+    *margin-left: -1em;
+    display: inline;
+    float: left !important; }
+  /* line 62, ../scss/partials/_search.scss */
+  .apachesolr-browse-blocks .block-facetapi:nth-of-type(4n),
+  .sec-inner .block-facetapi:nth-of-type(4n) {
+    clear: left; }
+
+@media (min-width: 480px) and (max-width: 767px) {
+  /* line 68, ../scss/partials/_search.scss */
+  .sec-inner .block-facetapi {
+    width: 100%;
+    float: left;
+    margin-right: 3.44828%;
+    display: inline; }
+
+  /* line 71, ../scss/partials/_search.scss */
+  .sec-inner .block-facetapi {
+    float: right;
+    margin-right: 0;
+    *margin-left: -1em;
+    display: inline; } }
+@media (max-width: 479px) {
+  /* line 77, ../scss/partials/_search.scss */
+  .sec-inner .block-facetapi {
+    float: none;
+    width: 100%; } }
+/* line 83, ../scss/partials/_search.scss */
+.page-search-events .search-categories .field-item {
+  padding: 0 !important;
+  word-break: none !important; }
+
+/* line 88, ../scss/partials/_search.scss */
+.search-choice-close {
+  left: 10px !important;
+  top: 12px !important; }
+
+/* line 93, ../scss/partials/_search.scss */
+.search-field, .search-field input {
+  height: 48px !important; }
+
+/* line 98, ../scss/partials/_search.scss */
+.search-choice {
+  padding: 10px 20px !important;
+  padding-left: 30px !important; }
+  /* line 101, ../scss/partials/_search.scss */
+  .search-choice span {
+    margin-left: 3px; }
+
+/* line 108, ../scss/partials/_search.scss */
+.banner-pane-search-form .form-item-keyword input {
+  border: 1px solid rgba(0, 0, 0, 0.2) !important; }
+
+/* line 1, ../scss/partials/_school_event.scss */
+.school-event-link {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 4% 7% !important; }
+  /* line 6, ../scss/partials/_school_event.scss */
+  .school-event-link a {
+    padding: 7px;
+    background: #ff2e00;
+    color: white !important;
+    color: #F15E4A;
+    margin-top: 1.35em;
+    font-family: "Open Sans", sans-serif !important;
+    display: block;
+    font-weight: 300 !important;
+    font-size: 1.4em !important;
+    text-transform: uppercase;
+    margin-top: 20px !important;
+    float: left;
+    padding: 10px; }
+  /* line 19, ../scss/partials/_school_event.scss */
+  .school-event-link span {
+    display: inline-block;
+    float: left; }
+
+/* line 26, ../scss/partials/_school_event.scss */
+.views-field .views-field-field-subjects {
+  font-family: "Open Sans", sans-serif !important; }
+
+/* line 33, ../scss/partials/_school_event.scss */
+.views-label .views-label-field-subjects {
+  font-family: "Open Sans", sans-serif !important; }
+
+/* line 40, ../scss/partials/_school_event.scss */
+span {
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 0.6em !important;
+  text-transform: uppercase;
+  color: #333; }
+
+/* line 49, ../scss/partials/_school_event.scss */
+.date-display-start {
+  font-size: 0.5em !important;
+  margin-bottom: 10px !important; }
+
+/* line 56, ../scss/partials/_school_event.scss */
+.date-display-start span {
+  font-size: 0.5em !important;
+  font-weight: bold !important;
+  margin-bottom: 10px !important; }
+
+/* line 65, ../scss/partials/_school_event.scss */
+.field-name-field-school-event-price a {
+  font-family: "Open Sans", sans-serif !important;
+  text-transform: uppercase;
+  font-size: 0.8em !important;
+  color: #f56042 !important; }
+
+/* line 73, ../scss/partials/_school_event.scss */
+.date-display-end {
+  font-size: 0.5em !important;
+  margin-bottom: 10px !important; }
+
+/* line 80, ../scss/partials/_school_event.scss */
+.field-type-text-long {
+  color: #333 !important;
+  font-size: 1.2em !important;
+  margin-top: 20px !important;
+  margin-bottom: 12px !important;
+  line-height: 1.4rem;
+  text-transform: none !important; }
+
+/* line 99, ../scss/partials/_school_event.scss */
+.list-content-wrapper a {
+  font-weight: bold !important;
+  color: #000 !important;
+  margin-bottom: 20px !important;
+  font-size: 1.5em !important; }
+
+/* line 107, ../scss/partials/_school_event.scss */
+.pane-bundle-events-gallery-pane {
+  margin-bottom: 10px; }
+  /* line 111, ../scss/partials/_school_event.scss */
+  .pane-bundle-events-gallery-pane .pane-title {
+    position: relative !important;
+    color: #333 !important;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif !important; }
+  /* line 122, ../scss/partials/_school_event.scss */
+  .pane-bundle-events-gallery-pane .title {
+    color: #333 !important; }
+  /* line 127, ../scss/partials/_school_event.scss */
+  .pane-bundle-events-gallery-pane .panels-ipe-placeholder {
+    background: #f3f2f2;
+    background-color: #f3f2f2 !important;
+    box-shadow: none !important; }
+  /* line 136, ../scss/partials/_school_event.scss */
+  .pane-bundle-events-gallery-pane .panels-ipe-on {
+    background: #f3f2f2;
+    background-color: #f3f2f2 !important;
+    box-shadow: none !important; }
+  /* line 147, ../scss/partials/_school_event.scss */
+  .pane-bundle-events-gallery-pane .center-wrapper .panel-col a img, .pane-bundle-events-gallery-pane .center-wrapper .panel-col-last a img {
+    box-shadow: none !important; }
+  /* line 157, ../scss/partials/_school_event.scss */
+  .pane-bundle-events-gallery-pane .panel-panel {
+    background: none !important;
+    background-color: none !important; }
+  @media (max-width: 800px) {
+    /* line 164, ../scss/partials/_school_event.scss */
+    .pane-bundle-events-gallery-pane .pane-title {
+      top: 35px !important; } }
+  @media (min-width: 800px) {
+    /* line 169, ../scss/partials/_school_event.scss */
+    .pane-bundle-events-gallery-pane .pane-title {
+      top: 45px !important; } }
+
+/* line 176, ../scss/partials/_school_event.scss */
+.view-school-events-list .views-row {
+  position: relative; }
+  /* line 178, ../scss/partials/_school_event.scss */
+  .view-school-events-list .views-row .field-name-field-school-event-price {
+    display: block !important; }
+/* line 183, ../scss/partials/_school_event.scss */
+.view-school-events-list .views-field-nothing .field {
+  padding: 0 !important; }
+
+/* line 1, ../scss/partials/_forms.scss */
+.form-submit {
+  background: #ff2e00 !important;
+  border-color: #ff2e00 !important; }
+  @media (max-width: 960px) {
+    /* line 1, ../scss/partials/_forms.scss */
+    .form-submit {
+      width: 100%; } }
+
+/* line 11, ../scss/partials/_forms.scss */
+.magnifier {
+  color: #ddd !important; }
+
+/* line 1, ../scss/partials/_pager_slideshow.scss */
+.pager li a,
+.flexslider li a {
+  background-color: #ff2e00 !important; }
+
+@media (max-width: 960px) {
+  /* line 10, ../scss/partials/_pager_slideshow.scss */
+  .flexslider {
+    margin-bottom: 0; } }
+/* line 17, ../scss/partials/_pager_slideshow.scss */
+.pager .pager-previous span, .pager .pager-current span {
+  background-color: #ff5833 !important; }
+
+/* line 25, ../scss/partials/_pager_slideshow.scss */
+.banner-pane-search-form {
+  background: rgba(255, 255, 255, 0.98) !important;
+  padding: 20px; }
+
+/* line 34, ../scss/partials/_pager_slideshow.scss */
+.edit-subject {
+  box-shadow: none;
+  border: none;
+  width: 40px;
+  height: auto;
+  background-color: aqua !important; }
+
+/* line 44, ../scss/partials/_pager_slideshow.scss */
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 10px !important;
+  border-radius: 0px;
+  border: none;
+  background-color: #d5d5d5;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-image: url("http://www.primalcom.com/images/Icon-Arrow-Down-white.png");
+  background-size: 16px;
+  background-position: 65px 17px;
+  background-repeat: no-repeat; }
+
+/* line 62, ../scss/partials/_pager_slideshow.scss */
+.events-form-title {
+  margin-bottom: 20px !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+
+/* line 70, ../scss/partials/_pager_slideshow.scss */
+.banner-pane-search-form h2 {
+  font-size: 1.2rem;
+  margin-top: 20px; }
+
+/* line 79, ../scss/partials/_pager_slideshow.scss */
+input[type="text"] {
+  height: 80px;
+  border-radius: 0px;
+  border: none; }
+
+/* line 1, ../scss/partials/_icons.scss */
+[class^="ic-"]:hover:before,
+.mobile-trigger.active:before,
+[class*=" ic-"]:hover:before {
+  color: #ff2e00 !important; }
+
+/* line 1, ../scss/partials/_faq.scss */
+.field-name-field-qa .ui-state-default a,
+.field-name-field-qa .ui-widget-content .ui-state-default a,
+.field-name-field-qa .ui-widget-header .ui-state-default a {
+  color: #ff2e00 !important; }
+
+/* line 21, ../scss/ringsted_styles.scss */
+body {
+  letter-spacing: 0.1rem; }
+
+/* line 29, ../scss/ringsted_styles.scss */
+.panel-panel {
+  border: none !important;
+  box-shadow: none !important; }
+
+/* line 36, ../scss/ringsted_styles.scss */
+.events-banner-pane {
+  border: none !important;
+  box-shadow: none !important; }
+
+/* line 46, ../scss/ringsted_styles.scss */
+.center-wrapper {
+  padding: 0px !important;
+  box-shadow: none !important; }
+
+/* line 53, ../scss/ringsted_styles.scss */
+.panel-col-first a img {
+  box-shadow: none !important; }
+
+/* line 59, ../scss/ringsted_styles.scss */
+div.panels-ipe-handlebar-wrapper li a {
+  box-shadow: none !important; }
+
+/* line 66, ../scss/ringsted_styles.scss */
+.fieldable-panels-pane {
+  border: none !important;
+  box-shadow: none !important;
+  background-color: #000 !important; }
+
+/* line 75, ../scss/ringsted_styles.scss */
+.page {
+  background-image: none;
+  background: none; }
+
+/* line 81, ../scss/ringsted_styles.scss */
+.sec-header {
+  background-color: #fff !important; }
+
+/* line 87, ../scss/ringsted_styles.scss */
+.sec-menu {
+  background-color: #fff !important;
+  margin: 0;
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  float: left !important;
+  font-weight: 600;
+  color: #333 !important; }
+
+/* line 99, ../scss/ringsted_styles.scss */
+.sec-menu li {
+  float: left !important; }
+
+/* line 106, ../scss/ringsted_styles.scss */
+.tabs {
+  border: none !important; }
+
+/* line 115, ../scss/ringsted_styles.scss */
+.primary {
+  border: none !important; }
+
+/* line 122, ../scss/ringsted_styles.scss */
+.sec-content {
+  background: none; }
+  /* line 125, ../scss/ringsted_styles.scss */
+  .sec-content .sec-inner {
+    background: #FDFBFB; }
+
+/* line 132, ../scss/ringsted_styles.scss */
+.flexslider {
+  margin: 0 !important;
+  padding: 0 !important; }
+
+/* line 139, ../scss/ringsted_styles.scss */
+.active {
+  background-color: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  background: none !important;
+  color: #FFC92D !important; }
+
+/* line 148, ../scss/ringsted_styles.scss */
+.sec-msg {
+  clear: both;
+  background: #ff2e00;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #ff2e00, #ffd500);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #ff2e00, #ffd500);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #ff2e00, #ffd500);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #ff2e00, #ffd500);
+  /* Standard syntax */ }
+
+/* line 160, ../scss/ringsted_styles.scss */
+.logo-page img {
+  margin-left: -20px; }
+
+/* line 165, ../scss/ringsted_styles.scss */
+.footer-logo {
+  margin-left: -8px; }
+
+/* line 172, ../scss/ringsted_styles.scss */
+.events-search-title {
+  font-family: "Open Sans", sans-serif !important;
+  margin-bottom: 10px !important; }
+
+/* line 179, ../scss/ringsted_styles.scss */
+.picture img {
+  box-shadow: none !important;
+  border-bottom: 2px solid #ff2e00 !important; }
+
+/* line 186, ../scss/ringsted_styles.scss */
+.banner-pane-search-form {
+  font-family: "Open Sans", sans-serif !important; }
+
+/* line 195, ../scss/ringsted_styles.scss */
+.front .panel-3col-33-stacked {
+  margin-top: -30px; }
+/* line 198, ../scss/ringsted_styles.scss */
+.front .sec-content .sec-inner, .front .sec-content .menu-serv-wrapper {
+  padding-top: 0; }
+
+/* line 204, ../scss/ringsted_styles.scss */
+.sec-inner li {
+  border: none !important; }
+
+/* line 211, ../scss/ringsted_styles.scss */
+.sec-inner li:active {
+  border: none !important; }
+
+/* line 217, ../scss/ringsted_styles.scss */
+li:hover {
+  border: none !important; }
+
+@media (max-width: 768px) {
+  /* line 223, ../scss/ringsted_styles.scss */
+  .banner-pane-search-form {
+    bottom: 1% !important; } }

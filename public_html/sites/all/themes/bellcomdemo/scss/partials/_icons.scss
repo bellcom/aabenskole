@@ -1,0 +1,5 @@
+[class^="ic-"]:hover:before,
+.mobile-trigger.active:before,
+[class*=" ic-"]:hover:before {
+  color: $pri !important;
+}

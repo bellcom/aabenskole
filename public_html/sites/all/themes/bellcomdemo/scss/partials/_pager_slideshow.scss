@@ -1,0 +1,87 @@
+.pager li a,
+.flexslider li a {
+  background-color: $pri !important;
+
+    
+}
+
+
+@include breakpoint(max-width 960px) {
+  .flexslider {
+    margin-bottom: 0;
+  }
+}
+
+.pager {
+  .pager-previous, .pager-current {
+    span {
+      background-color: lighten($pri, 10%) !important;
+    }
+  }
+}
+
+
+
+.banner-pane-search-form {
+    
+    background: rgba(255,255,255,0.98)!important;
+    padding: 20px;
+
+    
+   
+}
+
+.edit-subject {
+    
+    box-shadow: none;
+    border: none;
+    width: 40px;
+    height: auto;
+    background-color: aqua!important;
+}
+
+
+select {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+    padding: 10px!important;
+    border-radius: 0px;
+    border: none;
+    background-color: #d5d5d5;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-image: url('http://www.primalcom.com/images/Icon-Arrow-Down-white.png');
+    background-size: 16px;
+    background-position: 65px 17px;
+    background-repeat: no-repeat;
+}
+
+
+.events-form-title {
+    
+    margin-bottom: 20px!important;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    
+}
+
+
+.banner-pane-search-form h2 {
+    
+    font-size: 1.2rem;
+    margin-top: 20px;
+    
+}
+
+
+
+input[type="text"] {
+    
+    
+    height: 80px;
+    border-radius: 0px;
+    border:none;
+    
+    
+}

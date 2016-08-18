@@ -1,0 +1,183 @@
+//-----------------------------------------------------------------------------
+// Images
+$sprite: "../images/sprite.png";
+$ie-sprite: "../images/ie/sprite.png";
+$sprite-responsive: "../images/sprite_responsive.png";
+//-----------------------------------------------------------------------------
+// Fonts
+
+
+$font-serif: serif;
+
+$sans:  "MuseoSans", Helvetica, Arial, sans-serif;
+$sans-strict:  "Museo300", Helvetica, Arial, sans-serif;
+
+$sans-med:"Museo300", Helvetica, Arial, sans-serif;
+$sans-med-strict: "Museo300", Helvetica, Arial, sans-serif;
+
+$sans-bold: "Museo700", Helvetica, Arial, sans-serif;
+
+$sansLight: Helvetica, Arial, sans-serif;
+
+$trebuchet: "MuseoSans", Helvetica, Arial, sans-serif;
+
+
+//  Ringsted Coloures
+//-----------------------------------------------------------------------------
+
+$def-color: #333;
+
+$white: #fff;
+$black: #000;
+
+$lightgray: #EBEBEB;
+$grayMedium: #D1D3D4;
+
+
+$lightRedRingsted: #e6052f;
+$redText: #C5062D;
+$grayText: #999999;
+$lightgrayText: #6C6C6C;
+$liteGray: #f3f3f3;
+
+$pri: #ff2e00;
+
+// Old color
+$grayLight: #f2f2f2;
+$lightergray: #a0a0a0;
+$slatgrayLight: #5e6a6a;
+$graylight: #f5f5f5;
+$gray: #666;
+$verylightgray: #fafafa;
+$slategrey: #586464;
+
+$orange: #EB5A0F;
+
+$green: #96c31e;
+$forestgreen: #41500F;
+
+$blue: #4b7891;
+$verysofrblue: #bec8c8;
+
+$red: #C30A32;
+$redRingsted: #C30A32;
+
+$cyanlight: #00afc3;
+
+$cream: #fadc7d;
+
+// KOS
+// Default settings
+// ------------------------------------
+// Set variables to default values if no has been defined
+// by the theme. !default ensures values are not overwritten.
+
+$col_menu_link: false !default;
+$col_menu_bg: white !default;
+$col_footer_bg: grey !default;
+$col_bottom_bg: black !default;
+$col_shadows : false !default;
+$col_menu_link : false !default;
+$under_menu_line : false !default;
+
+// Layout
+$layout_full : true !default;
+$layout_bg_expose : false !default;
+
+// Images
+$image_header_path : false !default;
+$image_bg_path : false !default;
+$image_footer_path : false !default;
+
+// Theme path
+$theme_path : '..' !default;
+
+// Font sizes
+// ------------------------------------
+$basesize       : 18 !default; // 18px base font size.
+
+$basefont       : $basesize / 16 * 1em; // 16px being base font-size in most browsers.
+$baseline       : 1.333333333em; // 24px.
+
+$text-title     : (8 / 3)   * 1em; // 48px
+$text-quote     : (14 / 9)  * 1em; // 28px
+$text-block     : (4 / 3)   * 1em; // 24px
+$text-heading   : (10 / 9)  * 1em; // 20px
+$text-second    : (8 / 9)   * 1em; // 16px
+$text-meta      : (5 / 6)   * 1em; // 15px
+$text-pane-title: (14 / 18) * 1em; // 14px
+$text-label     : (13 / 18) * 1em; // 13px
+$text-sub       : (12 / 18) * 1em; // 12px
+$text-icon      : (11 / 18) * 1em; // 11px
+$text-menu-icon : (5 / 3)   * 1em; // 30px;
+
+// Dimensions and grid
+// ------------------------------------
+$padding: 12px !default;
+$space: 28px !default;
+
+// Grid columns
+$total-columns  : 24 !default;     // a 24-column grid
+$column-width   : 60px !default;   // Column width (relative to gutter)
+$gutter-width   : 20px !default;   // Gutter width (relative to columns)
+$grid-padding   : $gutter-width;   // grid-padding equal to gutters
+$container-width: 1020px !default; // Max width applied to outer content wrapper.
+$content-width: 59em;
+
+// Media queries
+// ------------------------------------
+$w-desktop : 62em;
+$mq-medium : '(min-width : 40em)';
+$mq-tablet : '(min-width : 25em) and (max-width : 40em)';
+$mq-tablet-plus : '(min-width : 25em)';
+$mq-tablet-minus : '(max-width : 40em)';
+$mq-mobile : '(max-width : 25em)';
+
+// Media queries breakpoints
+$mq-bp-desktop: 768px 24;
+$mq-bp-tablet: 480px 24 767px;
+$mq-bp-tablet-plus : 480px 24;
+$mq-bp-tablet-minus : 24 767px;
+$mq-bp-mobile: 24 479px;
+
+
+// Colors
+// ------------------------------------
+$col-content: #fff;
+$col-sec-back: #fff;
+
+$col-primary: #006D8C !default;
+$col-button-hover: #15819D !default;
+
+$col-contrast-one: #C44D45;
+$col-contrast-one-lt: #E1A5A4;
+
+$col-contrast-two: #39B66A;
+$col-contrast-two-lt: #D4E8DC;
+$col-contrast-two-bd: #B4CABB;
+
+$col-contrast-three: #FFF2D1;
+
+
+$col-gray-10: #F4F4F4;
+$col-gray-25: #EBEBEB;
+$col-gray-40: #E0E0E0;
+$col-gray-55: #CBD0D3;
+$col-gray-70: #626262;
+//$col-gray-70: #929292;
+$col-gray-85: #444444;
+$col-gray-90: #333333;
+$col-gray-95: #101010;
+$col-gray-100: #AAAAAA;
+
+
+// Derivatives
+$col-text: $col-gray-85 !default;
+
+$col-back-w: $col-content;
+$col-back-b: #000;
+$col-back-g: $col-gray-25;
+
+// Defaults
+$col-footer: #B5AEA6;
+$col-back: lighten($col-text, 50%) !default;

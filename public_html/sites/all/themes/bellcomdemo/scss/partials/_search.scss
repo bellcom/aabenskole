@@ -1,0 +1,111 @@
+.page-search .search-form .form-submit {
+  padding: 9px 0.5em;
+}
+.form-item-retain-filters {
+  margin-top: 40px !important;
+}
+
+.page-search-events {
+  .events-topbar-search {
+    select {
+      width: 100%;
+    }
+  }
+  .sec-inner {
+    .apachesolr_search-results {
+      .search-result {
+        &.highlighted {
+          background: lighten($blue, 40%);
+        }
+        .search-fields-events-right {
+          .date,
+          .price,
+          .icon-link {
+            font-size: 12px;
+            display: block;
+            margin-bottom: 3%;
+            font-style: normal;
+          }
+          .icon-link {
+            margin-top: 30px;
+          }
+          .link-search {
+            font-family: "Gill Sans W01","Gill Sans",serif;
+            font-weight: bold;
+            a {
+              @include button;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include breakpoint(max-width 960px) {
+  .block-facetapi {
+    margin-bottom: 30px !important;
+  }
+}
+
+.apachesolr-browse-blocks,
+.sec-inner {
+  .block-facetapi {
+    display: inline-block;
+    float: left;
+    margin-bottom: 0 !important;
+    @include span-columns(2,6);
+    &:nth-of-type(3n) {
+      @include omega;
+      float: left !important;
+    }
+    &:nth-of-type(4n) {
+      clear: left;
+    }
+  }
+}
+@include at-breakpoint($mq-bp-tablet) {
+  .sec-inner .block-facetapi {
+    @include span-columns(6,6);
+  }
+  .sec-inner .block-facetapi {
+     @include omega;
+  }
+
+}
+@include at-breakpoint($mq-bp-mobile) {
+  .sec-inner .block-facetapi {
+    float: none;
+    width: 100%;
+  }
+}
+
+.page-search-events .search-categories .field-item {
+  padding: 0 !important;
+  word-break: none !important;
+}
+
+.search-choice-close {
+  left: 10px !important;
+  top: 12px !important;
+}
+
+.search-field, .search-field input {
+  height: 48px !important;
+    
+}
+
+.search-choice {
+  padding: 10px 20px !important;
+  padding-left: 30px !important;
+  span {
+    margin-left: 3px;
+  }
+}
+
+
+
+.banner-pane-search-form .form-item-keyword input {
+    
+    border: 1px solid rgba(0,0,0,0.2)!important;
+}

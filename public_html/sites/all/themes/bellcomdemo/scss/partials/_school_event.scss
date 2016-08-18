@@ -1,0 +1,187 @@
+.school-event-link {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 4% 7% !important;
+  a {
+    @include button;
+    color: #F15E4A;
+    margin-top: 1.35em;
+      font-family: 'Open Sans', sans-serif!important;
+    display: block;
+      font-weight: 300!important;
+    font-size: 1.4em!important;
+    text-transform: uppercase;
+    margin-top: 20px!important;
+    float: left;
+      padding: 10px;
+  }
+  span {
+    display: inline-block;
+    float: left;
+  }
+}
+
+
+.views-field .views-field-field-subjects {
+    
+    font-family: 'Open Sans', sans-serif!important;
+    
+}
+
+
+.views-label .views-label-field-subjects {
+    
+     font-family: 'Open Sans', sans-serif!important;
+    
+}
+
+
+span {
+    
+    
+     font-family: 'Open Sans', sans-serif!important;
+    font-size: 0.6em!important;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.date-display-start {
+    
+    font-size: 0.5em!important;
+    margin-bottom: 10px!important;
+    
+}
+
+.date-display-start span {
+    
+    font-size: 0.5em!important;
+    font-weight: bold!important;
+    margin-bottom: 10px!important;
+}
+
+
+
+.field-name-field-school-event-price a {
+    
+    font-family: 'Open Sans', sans-serif!important;
+     text-transform: uppercase;
+    font-size: 0.8em!important;
+    color: #f56042!important;
+}
+
+.date-display-end {
+    
+    font-size: 0.5em!important;
+    margin-bottom: 10px!important;
+    
+}
+
+.field-type-text-long {
+    
+    color: #333!important;
+    font-size: 1.2em!important;
+    margin-top: 20px!important;
+    margin-bottom: 12px!important;
+    line-height: 1.4rem;
+    text-transform: none!important;
+
+    
+}
+
+
+.views-field-field-subjects a {
+    
+    
+}
+
+
+.list-content-wrapper a {
+    
+    font-weight: bold!important;
+    color: #000!important;
+    margin-bottom: 20px!important;
+    font-size: 1.5em!important;
+}
+
+.pane-bundle-events-gallery-pane {
+  margin-bottom: 10px;
+    
+    
+  .pane-title {
+    position: relative !important;
+      color: #333!important;
+      font-weight: 600;
+      font-family: 'Open Sans', sans-serif!important;
+    
+      
+      
+  }
+    
+    
+    .title {
+        
+        color: #333!important;
+    }
+    
+    .panels-ipe-placeholder  {
+        
+        background: #f3f2f2;
+    background-color: #f3f2f2!important;
+        box-shadow: none!important;
+        
+    }
+    
+    
+    .panels-ipe-on {
+        
+        
+           background: #f3f2f2;
+    background-color: #f3f2f2!important;
+        box-shadow: none!important;
+        
+    }
+    
+    
+    
+    .center-wrapper .panel-col a img, .center-wrapper .panel-col-last a img {
+        
+        box-shadow: none!important;
+        
+    }
+    
+    
+  
+    
+    
+    .panel-panel {
+        
+        background: none!important;
+        background-color: none!important;
+    }
+    
+  @include breakpoint(max-width 800px) {
+    .pane-title {
+      top: 35px !important;
+    }
+  }
+  @include breakpoint(800px) {
+    .pane-title {;
+      top: 45px !important;
+    }
+  }
+}
+
+.view-school-events-list {
+  .views-row {
+    position: relative;
+    .field-name-field-school-event-price {
+      display: block !important;
+    }
+  }
+  .views-field-nothing {
+    .field {
+      padding: 0 !important;
+    }
+  }
+}

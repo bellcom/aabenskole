@@ -1,0 +1,71 @@
+@include breakpoint(max-width 960px) {
+  .sec-header {
+    a {
+      width: 100%;
+        
+    }
+    img {
+      margin: 0 auto;
+    }
+  }
+  .sec-menu {
+    float: none !important;
+    text-align: center !important;
+  }
+}
+
+.sec-menu {
+  clear: both;
+  float: right;
+  margin-top: 15px;
+  text-align: right;
+  border: 0;
+  width: 100%;
+
+  .sec-inner {
+    padding: 0;
+  }
+
+  .menu-main {
+    float: right;
+    width: 100%;
+  }
+
+  //  Navigation
+  .nav {
+    display: inline-block;
+  }
+
+  li {
+    @include inline-block();
+    margin: 0;
+    text-transform: uppercase;
+    float: none;
+  }
+
+  a {
+    @include font-size(22);
+    padding: 16px 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    display: block;
+      color:#777!important;
+
+    &:hover {
+      background-color: $lightgray;
+      color: $def-color;
+    }
+  }
+
+  .active,
+  .active-trail {
+    a {
+      color: $def-color;
+      background-color: transparent;
+    }
+  }
+
+  .last {
+    margin-right: 0;
+  }
+}

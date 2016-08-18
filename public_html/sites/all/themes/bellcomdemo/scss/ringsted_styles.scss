@@ -1,0 +1,226 @@
+@charset "UTF-8";
+
+// Import libraries
+@import "compass";
+@import "breakpoint";
+@import "susy";
+
+@import "partials/variables";
+@import "partials/mixins";
+@import "partials/typography";
+@import "partials/header";
+@import "partials/footer";
+@import "partials/search";
+@import "partials/school_event";
+@import "partials/forms";
+@import "partials/pager_slideshow";
+@import "partials/icons";
+@import "partials/faq";
+
+
+body {
+    
+    letter-spacing: 0.1rem;
+   
+}
+
+
+
+.panel-panel {
+    
+    border: none!important;
+    box-shadow: none!important;
+}
+
+
+.events-banner-pane {
+    
+    
+    border: none!important;
+    box-shadow: none!important;
+    
+}
+
+
+
+.center-wrapper {
+    
+    
+    padding: 0px!important;
+    box-shadow: none!important;
+}
+
+.panel-col-first a img {
+    
+    box-shadow: none!important;
+}
+
+
+div.panels-ipe-handlebar-wrapper li a {
+    
+      box-shadow: none!important;
+    
+}
+
+
+.fieldable-panels-pane {
+    
+     border: none!important;
+    box-shadow: none!important;
+    background-color: #000!important;
+    
+}
+
+
+.page {
+  background-image: none;
+  background: none;
+}
+
+
+.sec-header {
+    
+    background-color: #fff!important;
+}
+
+
+.sec-menu {
+    
+    background-color: #fff!important;
+    margin:0;
+    border: none;
+    border-top:1px solid rgba(0,0,0,0.2);
+    float: left!important;
+    font-weight: 600;
+    color: #333!important;
+}
+
+
+.sec-menu li {
+    
+    float: left!important;
+    
+}
+
+
+.tabs {
+   
+    border:none!important;
+    
+    
+    
+}
+
+
+.primary {
+    
+    border: none!important;
+    
+}
+
+
+.sec-content {
+  background: none;
+    
+  .sec-inner {
+    background: #FDFBFB;
+      
+  }
+}
+
+
+.flexslider {
+    
+    margin: 0!important;
+    padding: 0!important;
+    
+}
+
+.active {
+    
+    background-color: none!important;
+    border:none!important;
+    box-shadow: none!important;
+    background: none!important;
+    color: #FFC92D!important;
+}
+
+.sec-msg {
+  clear: both;
+    background: #ff2e00; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #ff2e00 , #ffd500); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #ff2e00, #ffd500); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #ff2e00, #ffd500); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #ff2e00 , #ffd500); /* Standard syntax */
+    
+}
+
+
+
+.logo-page img {
+    
+    margin-left: -20px;
+}
+
+.footer-logo {
+    
+    margin-left:-8px;
+    
+}
+
+
+.events-search-title {
+    
+    font-family: 'Open Sans', sans-serif!important;
+    
+    margin-bottom: 10px!important;
+}
+
+.picture img {
+    
+    box-shadow: none!important;
+    border-bottom: 2px solid #ff2e00!important;
+}
+
+
+.banner-pane-search-form {
+    
+    
+    font-family: 'Open Sans', sans-serif!important;
+    
+}
+
+
+.front {
+  .panel-3col-33-stacked {
+    margin-top: -30px;
+  }
+  .sec-content .sec-inner, .sec-content .menu-serv-wrapper {
+    padding-top: 0;
+  }
+}
+
+
+.sec-inner li {
+    
+    border: none!important;
+}
+
+
+
+.sec-inner li:active {
+    
+    border: none!important;
+    
+}
+
+li:hover {
+    
+    border: none!important;
+}
+
+@include breakpoint(max-width 768px) {
+  .banner-pane-search-form {
+    bottom: 1% !important;
+  }
+}

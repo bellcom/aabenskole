@@ -40,9 +40,7 @@
 
 /* line 30, ../scss/page/_kk.page.scss */
 .bl-element, .bl-grid-space .views-row, .view-school-events-list .views-row {
-  -webkit-box-shadow: 3px 3px 0 rgba(68, 68, 68, 0.15), 0px 0px 1px rgba(68, 68, 68, 0.15);
-  -moz-box-shadow: 3px 3px 0 rgba(68, 68, 68, 0.15), 0px 0px 1px rgba(68, 68, 68, 0.15);
-  box-shadow: 3px 3px 0 rgba(68, 68, 68, 0.15), 0px 0px 1px rgba(68, 68, 68, 0.15);
+  
   border: 1px solid #ebebeb; }
   /* line 39, ../scss/page/_kk.page.scss */
   .bl-element h1, .bl-grid-space .views-row h1, .view-school-events-list .views-row h1,
