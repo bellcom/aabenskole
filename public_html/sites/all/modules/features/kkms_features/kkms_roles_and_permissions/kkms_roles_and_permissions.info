@@ -5,7 +5,6 @@ package = Configuration
 version = 7.x-1.0
 project = kkms_roles_and_permissions
 dependencies[] = admin_theme
-dependencies[] = administerusersbyrole
 dependencies[] = apachesolr_channels
 dependencies[] = better_formats
 dependencies[] = block

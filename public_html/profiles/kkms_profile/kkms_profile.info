@@ -123,7 +123,6 @@ dependencies[] = jquery_update
 dependencies[] = fences
 dependencies[] = piwik
 dependencies[] = piwik_stats
-dependencies[] = administerusersbyrole
 dependencies[] = role_delegation
 dependencies[] = password_policy
 dependencies[] = login_security
