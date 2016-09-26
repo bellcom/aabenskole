@@ -13,57 +13,69 @@
   }
 }
 
-.sec-menu {
-  clear: both;
-  float: right;
-  margin-top: 15px;
-  text-align: right;
-  border: 0;
-  width: 100%;
-
-  .sec-inner {
-    padding: 0;
+@include breakpoint(0 768px) {
+  .sec-menu {
+    .menu-main {
+      li a:hover {
+        background: $pri;
+      }
+    }
   }
+}
 
-  .menu-main {
+@include breakpoint(768px) {
+  .sec-menu {
+    clear: both;
     float: right;
+    margin-top: 15px;
+    text-align: right;
+    border: 0;
     width: 100%;
-  }
 
-  //  Navigation
-  .nav {
-    display: inline-block;
-  }
-
-  li {
-    @include inline-block();
-    margin: 0;
-    text-transform: uppercase;
-    float: none;
-  }
-
-  a {
-    @include font-size(22);
-    padding: 16px 20px;
-    font-family: $MuseoLight;
-    font-weight: normal;
-    display: block;
-
-    &:hover {
-      background-color: $lightgray;
-      color: $def-color;
+    .sec-inner {
+      padding: 0;
     }
-  }
 
-  .active,
-  .active-trail {
+    .menu-main {
+      float: right;
+      width: 100%;
+    }
+
+    //  Navigation
+    .nav {
+      display: inline-block;
+    }
+
+    li {
+      @include inline-block();
+      margin: 0;
+      text-transform: uppercase;
+      float: none;
+    }
+
     a {
-      color: $def-color;
-      background-color: $lightgray;
-    }
-  }
+      @include font-size(22);
+      padding: 16px 20px;
+      font-family: $MuseoLight;
+      font-weight: normal;
+      display: block;
 
-  .last {
-    margin-right: 0;
+      &:hover {
+        background-color: $lightgray;
+        color: $def-color;
+      }
+    }
+
+    .active,
+    .active-trail {
+      a {
+        color: $def-color;
+        background-color: $lightgray;
+      }
+    }
+
+    .last {
+      margin-right: 0;
+    }
   }
 }
