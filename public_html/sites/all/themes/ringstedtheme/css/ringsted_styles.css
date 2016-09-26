@@ -316,7 +316,10 @@ a:hover {
   /* line 42, ../scss/partials/_school_event.scss */
   .view-school-events-list .views-row .field-name-field-school-event-price {
     display: block !important; }
-/* line 47, ../scss/partials/_school_event.scss */
+  /* line 45, ../scss/partials/_school_event.scss */
+  .view-school-events-list .views-row .field-name-field-teaser {
+    margin-top: 7px; }
+/* line 50, ../scss/partials/_school_event.scss */
 .view-school-events-list .views-field-nothing .field {
   padding: 0 !important; }
 
