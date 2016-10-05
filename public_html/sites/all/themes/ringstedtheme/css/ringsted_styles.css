@@ -383,4 +383,32 @@ a:hover {
 @media (max-width: 768px) {
   /* line 46, ../scss/ringsted_styles.scss */
   .banner-pane-search-form {
-    bottom: 1% !important; } }
+    bottom: 1% !important; }
+
+  /* line 49, ../scss/ringsted_styles.scss */
+  .page-search .sec-inner {
+    padding-top: 1px !important; }
+
+  /* line 52, ../scss/ringsted_styles.scss */
+  .page-search .search-form .form-item {
+    margin-top: 10px !important; }
+
+  /* line 56, ../scss/ringsted_styles.scss */
+  .page-search .block-facetapi {
+    display: block;
+    clear: both;
+    float: none;
+    margin-bottom: 20px !important; }
+    /* line 61, ../scss/ringsted_styles.scss */
+    .page-search .block-facetapi .form-item {
+      margin-bottom: 0 !important; }
+  /* line 65, ../scss/ringsted_styles.scss */
+  .page-search .block-facetapi form {
+    margin-bottom: 5px !important; }
+
+  /* line 70, ../scss/ringsted_styles.scss */
+  .page-search .facetapi-multiselect {
+    background: white;
+    -webkit-appearance: none !important;
+    border-radius: 0;
+    padding: 5px; } }
